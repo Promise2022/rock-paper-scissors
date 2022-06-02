@@ -1,6 +1,6 @@
 const plays = ["Rock", "Paper", "Scissors"]
-let playerSelection = "Rock"
-let computerSelection = computerPlay()
+const playerSelection = "Rock"
+const computerSelection = computerPlay()
 
 function computerPlay() {
     let randomIndex = Math.floor(Math.random() * 3 )
